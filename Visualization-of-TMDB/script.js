@@ -479,16 +479,10 @@ rows = rows.filter(function (d) {
 
 });
 
-function updatePlotly (row) {
+function updatePlotly (rows) {
     var data_update = {
       line: {
-        color: unpack(row, 'genre_id'),
-        colorscale: [[0, colors[0]], [1 / 17, colors[1]], [2 / 17, colors[2]], 
-                     [3 / 17, colors[3]], [4 / 17, colors[4]], [5 / 17, colors[5]], 
-                     [6 / 17, colors[6]], [7 / 17, colors[7]], [8 / 17, colors[8]],
-                     [9 / 17, colors[9]], [10 / 17, colors[10]], [11 / 17, colors[11]], 
-                     [12 / 17, colors[12]], [13 / 17, colors[13]], [14 / 17, colors[14]],
-                     [15 / 17, colors[15]], [16 / 17, colors[16]], [1, colors[17]]]
+        color: unpack(rows, 'genre_id')
       }
     };
 

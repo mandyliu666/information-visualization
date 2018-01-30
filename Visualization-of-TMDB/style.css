@@ -161,12 +161,10 @@ div.tooltip {
 }
 
 rect.sqr {
-	opacity: 1;
+	opacity: 0.8;
 }
 
 rect.sqr:hover {
-	border-width: 2px;
-	border-color: #ddd;
-	opacity: 0.1;
+	opacity: 1;
 }
 

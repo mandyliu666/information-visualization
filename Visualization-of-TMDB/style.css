@@ -163,5 +163,6 @@ div.tooltip {
 rect.sqr:hover {
 	border-width: 2px;
 	border-color: #ddd;
+	opacity: 0.1;
 }
 

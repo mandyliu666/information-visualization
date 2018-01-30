@@ -160,6 +160,10 @@ div.tooltip {
   pointer-events: none;
 }
 
+rect.sqr {
+	opacity: 1;
+}
+
 rect.sqr:hover {
 	border-width: 2px;
 	border-color: #ddd;

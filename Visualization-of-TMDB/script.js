@@ -547,6 +547,7 @@ legendsvg.append("g")
     .selectAll("text")
     .data(legends)
     .enter().append("text")
+    .attr("class", "legendText")
     .attr("transform", "translate(15, 10)")
     .attr("x", function (d) {
       return Math.floor(d.id / 6) * 130;

@@ -168,3 +168,12 @@ rect.sqr:hover {
 	opacity: 1;
 }
 
+.legendText {
+
+}
+
+.legendText:hover {
+	font-weight: bolder;
+	text-shadow: 0px 1px 0px #fff;
+}
+

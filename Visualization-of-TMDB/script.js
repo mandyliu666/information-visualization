@@ -562,3 +562,4 @@ legendsvg.append("g")
     .text(function(d) {
       return d.genre;
     });
+
